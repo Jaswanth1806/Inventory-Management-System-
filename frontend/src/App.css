@@ -1,0 +1,49 @@
+/* General styles for the app container */
+.app-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Styles for the navigation bar */
+.navbar {
+  background-color: #282c34;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #21a0f6;
+}
+
+/* Styles for the main content area */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+h1 {
+  color: #333;
+}
